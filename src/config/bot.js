@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "idle",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -25,11 +25,11 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Lady & Mistress's Right Hand Maiden🪻",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 4, 
       },
-    ],
+    ],Organizing 
   },
 
   // =========================
@@ -41,7 +41,7 @@ export const botConfig = {
     owners: process.env.OWNER_IDS?.split(",") || [],
 
     // Default wait time between command uses (in seconds).
-    defaultCooldown: 3, 
+    defaultCooldown: 2, 
 
     // If true, old commands are removed before re-registering.
     deleteCommands: false,
@@ -69,7 +69,7 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 24, 
+    applicationCooldown: 20, 
 
     // Auto-delete denied applications after this many days.
     deleteDeniedAfter: 7, 
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#13416167", 
+      secondary: "#12576743", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -156,9 +156,9 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "ayen",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "ayens",
       // Currency symbol shown in balances.
       symbol: "$",
     },
